@@ -103,7 +103,7 @@ Place your app icon at `assets/images/app-icon.png`:
 
 ### Local Development
 
-bash
+```bash
 # Install dependencies
 bundle install
 
@@ -111,7 +111,7 @@ bundle install
 bundle exec jekyll serve
 
 # Visit http://localhost:4000
-
+```
 
 ## 📧 Support
 
