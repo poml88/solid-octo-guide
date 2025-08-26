@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="{{ page.lang | default: site.default_lang | default: 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+
+```
+{% seo %}
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    header {
+        text-align: center;
+        margin-bottom: 2rem;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 2rem;
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    }
+    
+    .app-icon {
+        width: 120px;
+        height: 120px;
+        border-radius: 22px;
+        margin: 0 auto 1rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        display: block;
+        background: #f0f0f0;
+    }
+    
+    .app-title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    .app-subtitle {
+        font-size: 1.2rem;
+        color: #666;
+        margin-bottom: 2rem;
+    }
+    
+    .buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+    
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 12px 24px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn-primary {
+        background: #007AFF;
+        color: white;
+        box-shadow: 0 4px 15px rgba(0, 122, 255, 0.4);
+    }
+    
+    .btn-primary:hover {
+        background: #0056CC;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 122, 255, 0.6);
+    }
+    
+    .btn-secondary {
+        background: #333;
+        color: white;
+        box-shadow: 0 4px 15px rgba(51, 51, 51, 0.4);
+    }
+    
+    .btn-secondary:hover {
+        background: #555;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(51, 51, 51, 0.6);
+    }
+    
+    .language-selector {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .language-selector select {
+        border: none;
+        background: transparent;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 5px;
+    }
+    
+    .content {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 2rem;
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+        margin-bottom: 2rem;
+    }
+    
+    @media (max-width: 768px) {
+        .app-title {
+            font-size: 2rem;
+        }
+        
+        .buttons {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .language-selector {
+            position: relative;
+            top: auto;
+            right: auto;
+            margin-bottom: 1rem;
+        }
+    }
+    
+    .features {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+    
+    .feature {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 1.5rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .feature h3 {
+        color: #667eea;
+        margin-bottom: 1rem;
+    }
+</style>
+```
+
+</head>
+<body>
+    <div class="container">
+        <div class="language-selector">
+            <select id="languageSelect" onchange="changeLanguage()">
+                <option value="en" {% if page.lang == 'en' %}selected{% endif %}>🇺🇸 English</option>
+                <option value="de" {% if page.lang == 'de' %}selected{% endif %}>🇩🇪 Deutsch</option>
+                <option value="fr" {% if page.lang == 'fr' %}selected{% endif %}>🇫🇷 Français</option>
+                <option value="es" {% if page.lang == 'es' %}selected{% endif %}>🇪🇸 Español</option>
+                <option value="ja" {% if page.lang == 'ja' %}selected{% endif %}>🇯🇵 日本語</option>
+                <option value="zh" {% if page.lang == 'zh' %}selected{% endif %}>🇨🇳 中文</option>
+            </select>
+        </div>
+
+```
+    <header>
+        <img src="{{ site.app.icon }}" alt="{{ site.app.name }} Icon" class="app-icon">
+        <h1 class="app-title">{{ site.app.name }}</h1>
+        <p class="app-subtitle">{{ site.app.subtitle }}</p>
+        
+        <div class="buttons">
+            <a href="{{ site.app.app_store_url }}" class="btn btn-primary" target="_blank">
+                📱 {{ site.data.translations[page.lang].download_app }}
+            </a>
+            <a href="{{ site.app.github_url }}" class="btn btn-secondary" target="_blank">
+                🔗 {{ site.data.translations[page.lang].view_github }}
+            </a>
+        </div>
+    </header>
+    
+    <main class="content">
+        {{ content }}
+    </main>
+</div>
+
+<script>
+    function changeLanguage() {
+        const select = document.getElementById('languageSelect');
+        const currentLang = '{{ page.lang | default: "en" }}';
+        const newLang = select.value;
+        
+        if (newLang !== currentLang) {
+            let newUrl = window.location.pathname;
+            
+            // Remove current language from URL if it exists
+            newUrl = newUrl.replace(/^\/(en|de|fr|es|ja|zh)\//, '/');
+            
+            // Add new language to URL (except for default English)
+            if (newLang !== 'en') {
+                newUrl = '/' + newLang + newUrl;
+            }
+            
+            window.location.href = newUrl;
+        }
+    }
+</script>
+```
+
+</body>
+</html>
