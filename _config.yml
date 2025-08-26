@@ -1,8 +1,8 @@
 # Site settings
 title: FLwatch
 description: "Glucose Sensor Graph - Your personal diabetes management companion for iOS and watchOS"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # Replace with your GitHub Pages URL
+baseurl: "FLwatch" # the subpath of your site, e.g. /blog
+url: "https://poml88.github.io" # Replace with your GitHub Pages URL
 
 # App information
 app:
