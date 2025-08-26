@@ -9,7 +9,7 @@ app:
   name: "FLwatch"
   subtitle: "Glucose Sensor Graph"
   app_store_url: "https://apps.apple.com/us/app/flwatch-glukose-sensor-graph/id6670172928"
-  github_url: "https://github.com/yourusername/flwatch" # Replace with your actual GitHub repo
+  github_url: "https://github.com/poml88/flwatch" # Replace with your actual GitHub repo
   icon: "/assets/images/app-icon.png"
   version: "1.0"
 
