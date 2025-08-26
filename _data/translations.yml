@@ -1,0 +1,89 @@
+en:
+download_app: “Download on App Store”
+view_github: “View on GitHub”
+hero_title: “Your Personal Diabetes Management Companion”
+hero_description: “FLwatch brings powerful glucose monitoring to your iPhone and Apple Watch, helping you stay in control of your diabetes management with beautiful, intuitive graphs and real-time data.”
+features_title: “Features”
+feature_realtime_title: “Real-time Monitoring”
+feature_realtime_desc: “Get instant glucose readings with beautiful, easy-to-read graphs on both your iPhone and Apple Watch.”
+feature_watch_title: “Apple Watch Integration”
+feature_watch_desc: “Quick glance at your glucose levels directly from your wrist, with complications and notifications.”
+feature_data_title: “Data Visualization”
+feature_data_desc: “Comprehensive charts and trends to help you understand your glucose patterns over time.”
+privacy_title: “Privacy & Security”
+privacy_desc: “Your health data stays on your device. We prioritize your privacy and never share your personal information.”
+
+de:
+download_app: “Im App Store laden”
+view_github: “Auf GitHub ansehen”
+hero_title: “Ihr persönlicher Diabetes-Management-Begleiter”
+hero_description: “FLwatch bringt leistungsstarke Glukose-Überwachung auf Ihr iPhone und Ihre Apple Watch und hilft Ihnen dabei, die Kontrolle über Ihr Diabetes-Management mit schönen, intuitiven Grafiken und Echtzeitdaten zu behalten.”
+features_title: “Funktionen”
+feature_realtime_title: “Echtzeitüberwachung”
+feature_realtime_desc: “Erhalten Sie sofortige Glukosewerte mit schönen, leicht lesbaren Grafiken sowohl auf Ihrem iPhone als auch auf der Apple Watch.”
+feature_watch_title: “Apple Watch Integration”
+feature_watch_desc: “Schneller Blick auf Ihre Glukosewerte direkt vom Handgelenk aus, mit Komplikationen und Benachrichtigungen.”
+feature_data_title: “Datenvisualisierung”
+feature_data_desc: “Umfassende Diagramme und Trends, um Ihnen zu helfen, Ihre Glukosemuster im Laufe der Zeit zu verstehen.”
+privacy_title: “Datenschutz & Sicherheit”
+privacy_desc: “Ihre Gesundheitsdaten bleiben auf Ihrem Gerät. Wir priorisieren Ihre Privatsphäre und teilen niemals Ihre persönlichen Informationen.”
+
+fr:
+download_app: “Télécharger sur l’App Store”
+view_github: “Voir sur GitHub”
+hero_title: “Votre compagnon personnel de gestion du diabète”
+hero_description: “FLwatch apporte une surveillance puissante du glucose sur votre iPhone et Apple Watch, vous aidant à garder le contrôle de votre gestion du diabète avec de beaux graphiques intuitifs et des données en temps réel.”
+features_title: “Fonctionnalités”
+feature_realtime_title: “Surveillance en temps réel”
+feature_realtime_desc: “Obtenez des lectures instantanées de glucose avec de beaux graphiques faciles à lire sur votre iPhone et Apple Watch.”
+feature_watch_title: “Intégration Apple Watch”
+feature_watch_desc: “Coup d’œil rapide sur vos niveaux de glucose directement depuis votre poignet, avec complications et notifications.”
+feature_data_title: “Visualisation des données”
+feature_data_desc: “Graphiques et tendances complets pour vous aider à comprendre vos modèles de glucose au fil du temps.”
+privacy_title: “Confidentialité et sécurité”
+privacy_desc: “Vos données de santé restent sur votre appareil. Nous priorisons votre vie privée et ne partageons jamais vos informations personnelles.”
+
+es:
+download_app: “Descargar en App Store”
+view_github: “Ver en GitHub”
+hero_title: “Tu compañero personal de manejo de diabetes”
+hero_description: “FLwatch trae un poderoso monitoreo de glucosa a tu iPhone y Apple Watch, ayudándote a mantener el control de tu manejo de diabetes con hermosos gráficos intuitivos y datos en tiempo real.”
+features_title: “Características”
+feature_realtime_title: “Monitoreo en tiempo real”
+feature_realtime_desc: “Obtén lecturas instantáneas de glucosa con hermosos gráficos fáciles de leer en tu iPhone y Apple Watch.”
+feature_watch_title: “Integración con Apple Watch”
+feature_watch_desc: “Vistazo rápido a tus niveles de glucosa directamente desde tu muñeca, con complicaciones y notificaciones.”
+feature_data_title: “Visualización de datos”
+feature_data_desc: “Gráficos y tendencias completos para ayudarte a entender tus patrones de glucosa a lo largo del tiempo.”
+privacy_title: “Privacidad y seguridad”
+privacy_desc: “Tus datos de salud permanecen en tu dispositivo. Priorizamos tu privacidad y nunca compartimos tu información personal.”
+
+ja:
+download_app: “App Storeでダウンロード”
+view_github: “GitHubで見る”
+hero_title: “あなたの個人的な糖尿病管理コンパニオン”
+hero_description: “FLwatchは、iPhoneとApple Watchに強力な血糖値監視機能をもたらし、美しく直感的なグラフとリアルタイムデータで糖尿病管理をコントロールするのに役立ちます。”
+features_title: “機能”
+feature_realtime_title: “リアルタイム監視”
+feature_realtime_desc: “iPhoneとApple Watchの両方で、美しく読みやすいグラフで即座に血糖値を読み取れます。”
+feature_watch_title: “Apple Watch統合”
+feature_watch_desc: “手首から直接血糖値を素早く確認でき、コンプリケーションと通知機能付き。”
+feature_data_title: “データ可視化”
+feature_data_desc: “時間の経過とともに血糖値のパターンを理解するのに役立つ包括的なチャートとトレンド。”
+privacy_title: “プライバシーとセキュリティ”
+privacy_desc: “あなたの健康データはデバイスに留まります。私たちはあなたのプライバシーを優先し、個人情報を決して共有しません。”
+
+zh:
+download_app: “在App Store下载”
+view_github: “在GitHub上查看”
+hero_title: “您的个人糖尿病管理伙伴”
+hero_description: “FLwatch为您的iPhone和Apple Watch带来强大的血糖监测功能，通过美观直观的图表和实时数据帮助您控制糖尿病管理。”
+features_title: “功能”
+feature_realtime_title: “实时监测”
+feature_realtime_desc: “通过iPhone和Apple Watch上美观易读的图表即时获取血糖读数。”
+feature_watch_title: “Apple Watch集成”
+feature_watch_desc: “直接从手腕快速查看血糖水平，具有复杂功能和通知功能。”
+feature_data_title: “数据可视化”
+feature_data_desc: “全面的图表和趋势分析，帮助您了解血糖模式的时间变化。”
+privacy_title: “隐私和安全”
+privacy_desc: “您的健康数据保存在您的设备上。我们优先考虑您的隐私，绝不分享您的个人信息。”
