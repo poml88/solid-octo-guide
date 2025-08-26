@@ -1,55 +1,46 @@
 # Site settings
-
 title: FLwatch
-description: “Glucose Sensor Graph - Your personal diabetes management companion for iOS and watchOS”
-baseurl: “” # the subpath of your site, e.g. /blog
-url: “https://yourusername.github.io” # Replace with your GitHub Pages URL
+description: "Glucose Sensor Graph - Your personal diabetes management companion for iOS and watchOS"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # Replace with your GitHub Pages URL
 
 # App information
-
 app:
-name: “FLwatch”
-subtitle: “Glucose Sensor Graph”
-app_store_url: “https://apps.apple.com/us/app/flwatch-glukose-sensor-graph/id6670172928”
-github_url: “https://github.com/yourusername/flwatch” # Replace with your actual GitHub repo
-icon: “/assets/images/app-icon.png”
-version: “1.0”
+  name: "FLwatch"
+  subtitle: "Glucose Sensor Graph"
+  app_store_url: "https://apps.apple.com/us/app/flwatch-glukose-sensor-graph/id6670172928"
+  github_url: "https://github.com/yourusername/flwatch" # Replace with your actual GitHub repo
+  icon: "/assets/images/app-icon.png"
+  version: "1.0"
 
 # Build settings
-
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
 
 # Plugins
-
 plugins:
-
-- jekyll-feed
-- jekyll-sitemap
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Language settings
-
-languages: [“en”, “de”, “fr”, “es”, “ja”, “zh”]
-default_lang: “en”
-exclude_from_localization: [“assets”, “CNAME”]
+languages: ["en", "de", "fr", "es", "ja", "zh"]
+default_lang: "en"
+exclude_from_localization: ["assets", "CNAME"]
 
 # Collections
-
 collections:
-i18n:
-output: false
+  i18n:
+    output: false
 
 # Exclude from processing
-
 exclude:
-
-- Gemfile
-- Gemfile.lock
-- node_modules
-- vendor/bundle/
-- vendor/cache/
-- vendor/gems/
-- vendor/ruby/
-- README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
