@@ -1,8 +1,8 @@
------
-
-## layout: default
+---
+layout: default
 lang: en
 title: Home
+---
 
 # {{ site.data.translations[page.lang].hero_title }}
 
@@ -15,19 +15,16 @@ title: Home
         <h3>{{ site.data.translations[page.lang].feature_realtime_title }}</h3>
         <p>{{ site.data.translations[page.lang].feature_realtime_desc }}</p>
     </div>
-
-
-<div class="feature">
-    <h3>{{ site.data.translations[page.lang].feature_watch_title }}</h3>
-    <p>{{ site.data.translations[page.lang].feature_watch_desc }}</p>
-</div>
-
-<div class="feature">
-    <h3>{{ site.data.translations[page.lang].feature_data_title }}</h3>
-    <p>{{ site.data.translations[page.lang].feature_data_desc }}</p>
-</div>
-
-
+    
+    <div class="feature">
+        <h3>{{ site.data.translations[page.lang].feature_watch_title }}</h3>
+        <p>{{ site.data.translations[page.lang].feature_watch_desc }}</p>
+    </div>
+    
+    <div class="feature">
+        <h3>{{ site.data.translations[page.lang].feature_data_title }}</h3>
+        <p>{{ site.data.translations[page.lang].feature_data_desc }}</p>
+    </div>
 </div>
 
 ## {{ site.data.translations[page.lang].privacy_title }}
